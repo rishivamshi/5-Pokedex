@@ -26,7 +26,12 @@ class Pokemon {
         }
         return _pokedexId
     }
+   
     
+    //important to initialise. forgot and waster more than 1 hour trying to rectify the mistake
     
-    
+    init(name: String, pokedexId: Int) {
+        self._name = name
+        self._pokedexId = pokedexId
+    }   
 }
